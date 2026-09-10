@@ -12,7 +12,7 @@ patch:
   "style/mark_text": ""
 
   "style/font_point": 10
-  "style/label_font_point": 19
+  "style/label_font_point": 9
   "style/comment_font_point": 9
 
   "style/layout/min_width": 10
