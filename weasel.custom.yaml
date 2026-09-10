@@ -11,8 +11,8 @@ patch:
   # 空字符串配合 hilited_mark_color，显示 Win11 风格选中标记
   "style/mark_text": ""
 
-  "style/font_point": 12
-  "style/label_font_point": 10
+  "style/font_point": 10
+  "style/label_font_point": 19
   "style/comment_font_point": 9
 
   "style/layout/min_width": 10
