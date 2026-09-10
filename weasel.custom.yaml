@@ -5,13 +5,13 @@ customization:
   modified_time: "Mon Dec 15 09:52:35 2025"
   rime_version: 1.13.1
 patch:
-  "style/color_scheme": sakura_cream
+  "style/color_scheme": sakura_sage
   "style/color_scheme_dark": sakura_night
 
   # 空字符串配合 hilited_mark_color，显示 Win11 风格选中标记
   "style/mark_text": ""
 
-  "style/font_point": 13
+  "style/font_point": 12
   "style/label_font_point": 10
   "style/comment_font_point": 9
 
