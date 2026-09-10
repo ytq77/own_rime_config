@@ -5,4 +5,25 @@ customization:
   modified_time: "Mon Dec 15 09:52:35 2025"
   rime_version: 1.13.1
 patch:
-  "style/color_scheme": yixuan5
+  "style/color_scheme": sakura_cream
+  "style/color_scheme_dark": sakura_night
+
+  # 空字符串配合 hilited_mark_color，显示 Win11 风格选中标记
+  "style/mark_text": ""
+
+  "style/font_point": 13
+  "style/label_font_point": 10
+  "style/comment_font_point": 9
+
+  "style/layout/min_width": 10
+  "style/layout/margin_x": 10
+  "style/layout/margin_y": 6
+  "style/layout/candidate_spacing": 18
+  "style/layout/hilite_spacing": 5
+  "style/layout/hilite_padding_x": 10
+  "style/layout/hilite_padding_y": 6
+  "style/layout/shadow_radius": 6
+  "style/layout/shadow_offset_x": 0
+  "style/layout/shadow_offset_y": 2
+  "style/layout/corner_radius": 10
+  "style/layout/round_corner": 8

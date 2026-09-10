@@ -58,8 +58,6 @@ global_ascii: false                        # 切换为 ascii 模式时，是否�
 # [style]
 # 字体；候选项、候选窗口的行为、布局及样式
 style:
-  color_scheme: yixuan3             # 默认配色方案
-  color_scheme_dark: yixuan4         # 深色模式下，Weasel 的配色方案，Windows 10 1809+ 可用
 
   # 全局字体
   # 格式：字体1:起始码位:结束码位:字重:字形,字体2……，字体会依次 fallback
@@ -276,7 +274,7 @@ preset_color_schemes:
 
   yixuan1:
     name: 月一/ytq
-    author: yixuan-gmail
+    author: iytq-gmail
     color_format: rgba
     hilited_mark_color: 0xBE646D
     text_color: 0xAC4D4D
@@ -297,7 +295,7 @@ preset_color_schemes:
 
   yixuan2:
     name: 月二/ytq
-    author: yixuan-gmail
+    author: iytq-gmail
     color_format: rgba
     hilited_mark_color: 0xBE646D
     text_color: 0xAC4D4D
@@ -318,7 +316,7 @@ preset_color_schemes:
 
   yixuan3:
     name: 月三/ytq
-    author: yixuan-gmail
+    author: iytq-gmail
     color_format: rgba
     hilited_mark_color: 0xBE646D
     text_color: 0x4999B4
@@ -339,7 +337,7 @@ preset_color_schemes:
     
   yixuan4:
     name: 月四/ytq
-    author: yixuan-gmail
+    author: iytq-gmail
     color_format: abgr
     hilited_mark_color: 0xB85C63
     text_color: 0xA24A4A
@@ -360,7 +358,7 @@ preset_color_schemes:
     
   yixuan5:
     name: 月五/ytq
-    author: yixuan-gmail
+    author: iytq-gmail
     color_format: abgr
     hilited_mark_color: 0x8A4E5B
     text_color: 0x5E3E3E
@@ -381,7 +379,7 @@ preset_color_schemes:
     
   yixuan6:
     name: 月六/ytq
-    author: yixuan-gmail
+    author: iytq-gmail
     color_format: abgr
     hilited_mark_color: 0x9A5A55
     text_color: 0x7B3F3F
@@ -399,6 +397,102 @@ preset_color_schemes:
     # inline_preedit: false 时翻页箭头颜色，不设置则不显示箭头
     nextpage_color: 0x5C5C5C    # inline_preedit: false 翻页箭头颜色：下一页；不设置则不显示箭头
     prevpage_color: 0x9A6A6A    # inline_preedit: false 翻页箭头颜色：上一页；不设置则不显示箭头
+  
+  sakura_cream:
+    name: 月樱／Sakura Cream
+    author: iytq-gmail
+    color_format: rgba
+    back_color: 0xFFF9FB
+    border_color: 0xF4D6DD
+    shadow_color: 0x3B30332A
+    text_color: 0x3B3033
+    label_color: 0x785861
+    comment_text_color: 0x80666D
+    candidate_back_color: 0xFFF9FB
+    candidate_border_color: 0x00000000
+    candidate_text_color: 0x3B3033
+    hilited_text_color: 0x4A2630
+    hilited_back_color: 0xFFE6EA
+    hilited_mark_color: 0xC94F68
+    hilited_label_color: 0x6E3441
+    hilited_comment_text_color: 0x643641
+    hilited_candidate_text_color: 0x4A2630
+    hilited_candidate_back_color: 0xFFAEB9
+    hilited_candidate_border_color: 0xED8EA0
+    nextpage_color: 0x66565A
+    prevpage_color: 0xC94F68
+
+  sakura_sage:
+    name: 青樱／Sakura Sage
+    author: iytq-gmail
+    color_format: rgba
+    back_color: 0xFBFAF6
+    border_color: 0xDDE4DF
+    shadow_color: 0x27332D20
+    text_color: 0x33413A
+    label_color: 0x64756C
+    comment_text_color: 0x5F7267
+    candidate_back_color: 0xFBFAF6
+    candidate_border_color: 0x00000000
+    candidate_text_color: 0x33413A
+    hilited_text_color: 0x5A303B
+    hilited_back_color: 0xFFE3E8
+    hilited_mark_color: 0xD2536E
+    hilited_label_color: 0x7D4653
+    hilited_comment_text_color: 0x65414A
+    hilited_candidate_text_color: 0x5A303B
+    hilited_candidate_back_color: 0xFFE3E8
+    hilited_candidate_border_color: 0xFFAEB9
+    nextpage_color: 0x40534A
+    prevpage_color: 0xD2536E
+
+  sakura_night:
+    name: 夜樱／Sakura Night
+    author: iytq-gmail
+    color_format: rgba
+    back_color: 0x211A1D
+    border_color: 0x49333A
+    shadow_color: 0x00000070
+    text_color: 0xF5EDEF
+    label_color: 0xC7A2AB
+    comment_text_color: 0xB88C97
+    candidate_back_color: 0x211A1D
+    candidate_border_color: 0x00000000
+    candidate_text_color: 0xF5EDEF
+    hilited_text_color: 0xFFAEB9
+    hilited_back_color: 0x3A2A2F
+    hilited_mark_color: 0xFFAEB9
+    hilited_label_color: 0xFFC5CD
+    hilited_comment_text_color: 0xF4C3CD
+    hilited_candidate_text_color: 0xFFF8FA
+    hilited_candidate_back_color: 0x633B46
+    hilited_candidate_border_color: 0xFFAEB9
+    nextpage_color: 0xD9C6CB
+    prevpage_color: 0xFFAEB9
+
+  sakura_mauve:
+    name: 暮樱／Sakura Mauve
+    author: iytq-gmail
+    color_format: rgba
+    back_color: 0xF7F5F8
+    border_color: 0xDDD6E1
+    shadow_color: 0x2D253226
+    text_color: 0x3E3842
+    label_color: 0x746B78
+    comment_text_color: 0x6A606E
+    candidate_back_color: 0xF7F5F8
+    candidate_border_color: 0x00000000
+    candidate_text_color: 0x3E3842
+    hilited_text_color: 0x462B33
+    hilited_back_color: 0xEEE8F1
+    hilited_mark_color: 0xB94763
+    hilited_label_color: 0x7A3041
+    hilited_comment_text_color: 0x693744
+    hilited_candidate_text_color: 0x462B33
+    hilited_candidate_back_color: 0xFFAEB9
+    hilited_candidate_border_color: 0xE98DA0
+    nextpage_color: 0x5C5560
+    prevpage_color: 0xB94763
 
   flypy:
     # description: |
