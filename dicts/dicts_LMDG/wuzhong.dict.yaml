@@ -2687,6 +2687,7 @@ sort: by_weight
 雀蝇	què yíng	87
 雀莺	què yīng	60
 雀鱼	què yú	70
+雀鱼	què yú	63
 裙鱼	qún yú	73
 髯蝠	rán fú	85
 髯蜥	rán xī	72
@@ -3899,6 +3900,7 @@ sort: by_weight
 翼朴	yì pǔ	59
 异蜻	yì qīng	93
 异蛸	yì shāo	70
+蚁狮	yǐ shī	8
 翼手	yì shǒu	168
 异鼠	yì shǔ	88
 异螋	yì sōu	93
@@ -6333,6 +6335,7 @@ sort: by_weight
 大藨草	dà biāo cǎo	8
 大步甲	dà bù jiǎ	8
 大蚕蛾	dà cán é	6
+大仓鼠	dà cāng shǔ	8
 大草莺	dà cǎo yīng	4
 达尺蛾	dá chǐ é	7
 大翅蓟	dà chì jì	4
@@ -15496,7 +15499,6 @@ sort: by_weight
 太安鱼	tài ān yú	154
 鲐鲅鱼	tái bà yú	66
 台巴鱼	tái bā yú	60
-大仓鼠	tài cāng shǔ	8
 台地黄	tái dì huáng	1
 台龟甲	tái guī jiǎ	4
 苔海绵	tái hǎi mián	7
@@ -30024,7 +30026,13 @@ sort: by_weight
 猪形果蝠	zhū xíng guǒ fú	1
 柱星珊瑚	zhù xīng shān hú	1
 住血线虫	zhù xuè xiàn chóng	1
+珠芽艾麻	zhū yá ài má	76
 侏哑霸鹟	zhū yǎ bà wēng	1
+珠芽百合	zhū yá bǎi hé	153
+珠芽狗脊	zhū yá gǒu jǐ	99
+珠芽景天	zhū yá jǐng tiān	117
+珠芽魔芋	zhū yá mó yù	144
+珠芽乌头	zhū yá wū tóu	76
 珠眼嘲鸫	zhū yǎn cháo dōng	1
 珠眼蜥鱼	zhū yǎn xī yú	1
 竹叶百合	zhú yè bǎi hé	5
@@ -30101,7 +30109,6 @@ sort: by_weight
 紫背细辛	zǐ bèi xì xīn	76
 紫背沼兰	zǐ bèi zhǎo lán	76
 紫背竹芋	zǐ bèi zhú yù	162
-紫背竹芋	zǐ bèi zhú yù	1
 紫翅野螟	zǐ chì yě míng	1
 紫顶蜂鸟	zǐ dǐng fēng niǎo	1
 紫额锦鱼	zǐ é jǐn yú	8
@@ -30330,7 +30337,7 @@ sort: by_weight
 阿氏剑尾鱼	ā shì jiàn wěi yú	1
 阿氏锯鳞鱼	ā shì jù lín yú	1
 阿氏丽脂鲤	ā shì lì zhī lǐ	1
-阿氏六须鲶	ā shì liù xū nián	1
+阿氏六须鲶	ā shì liù xū nián	7
 阿氏龙占鱼	ā shì lóng zhàn yú	1
 阿氏盲胡鲶	ā shì máng hú nián	1
 阿氏毛鼻鲶	ā shì máo bí nián	1
