@@ -1,0 +1,1957 @@
+{
+  "date": "2026-10-20",
+  "engine": "1.13.1",
+  "method": "Installed librime DLL in isolated user directory, without personal userdb or sync. Candidate existence within first 100 does not imply first rank. Existing comments and tone preedit checked where applicable.",
+  "cases": [
+    {
+      "schema": "double_pinyin_flypy",
+      "keys": "nihc",
+      "tone": false,
+      "emoji": false,
+      "expected": "你好",
+      "preedit": "nihc",
+      "first_candidate": "你好",
+      "matched_comment": "",
+      "commit": null,
+      "passed": true
+    },
+    {
+      "schema": "double_pinyin_flypy",
+      "keys": "vsgo",
+      "tone": false,
+      "emoji": false,
+      "expected": "中国",
+      "preedit": "vsgo",
+      "first_candidate": "中国",
+      "matched_comment": "",
+      "commit": null,
+      "passed": true
+    },
+    {
+      "schema": "double_pinyin_flypy",
+      "keys": "woxihrvsgo",
+      "tone": false,
+      "emoji": false,
+      "expected": "我喜欢中国",
+      "preedit": "woxihrvsgo",
+      "first_candidate": "我喜欢中国",
+      "matched_comment": "🍡",
+      "commit": null,
+      "passed": true
+    },
+    {
+      "schema": "double_pinyin_flypy",
+      "keys": "pisa",
+      "tone": false,
+      "emoji": false,
+      "expected": "披萨",
+      "preedit": "pisa",
+      "first_candidate": "披萨",
+      "matched_comment": "比(bǐ)萨",
+      "commit": null,
+      "passed": true
+    },
+    {
+      "schema": "double_pinyin_flypy",
+      "keys": "uftu",
+      "tone": false,
+      "emoji": false,
+      "expected": "神荼",
+      "preedit": "uftu",
+      "first_candidate": "神图",
+      "matched_comment": "神荼(shū)",
+      "commit": null,
+      "passed": true
+    },
+    {
+      "schema": "double_pinyin_flypy",
+      "keys": "yulw",
+      "tone": false,
+      "emoji": false,
+      "expected": "郁垒",
+      "preedit": "yulw",
+      "first_candidate": "鱼类",
+      "matched_comment": "郁垒(lǜ)",
+      "commit": null,
+      "passed": true
+    },
+    {
+      "schema": "double_pinyin_flypy",
+      "keys": "uftuyulw",
+      "tone": false,
+      "emoji": false,
+      "expected": "神荼郁垒",
+      "preedit": "uftuyulw",
+      "first_candidate": "神荼郁垒",
+      "matched_comment": "神荼(shū)郁垒(lǜ)",
+      "commit": null,
+      "passed": true
+    },
+    {
+      "schema": "double_pinyin_flypy",
+      "keys": "yulwuftu",
+      "tone": false,
+      "emoji": false,
+      "expected": "郁垒神荼",
+      "preedit": "yulwuftu",
+      "first_candidate": "郁垒神荼",
+      "matched_comment": "郁垒(lǜ)神荼(shū)",
+      "commit": null,
+      "passed": true
+    },
+    {
+      "schema": "double_pinyin_flypy",
+      "keys": "vujn",
+      "tone": false,
+      "emoji": false,
+      "expected": "主角",
+      "preedit": "vujn",
+      "first_candidate": "主教",
+      "matched_comment": "zhǔ jué",
+      "commit": null,
+      "passed": true
+    },
+    {
+      "schema": "double_pinyin_flypy",
+      "keys": "jnse",
+      "tone": false,
+      "emoji": false,
+      "expected": "角色",
+      "preedit": "jnse",
+      "first_candidate": "校色",
+      "matched_comment": "jué sè",
+      "commit": null,
+      "passed": true
+    },
+    {
+      "schema": "double_pinyin_flypy",
+      "keys": "rqzh",
+      "tone": false,
+      "emoji": false,
+      "expected": "",
+      "preedit": "rqzh",
+      "first_candidate": "二〇二六年十月二十日",
+      "matched_comment": null,
+      "commit": null,
+      "passed": true
+    },
+    {
+      "schema": "double_pinyin_flypy",
+      "keys": "rqen",
+      "tone": false,
+      "emoji": false,
+      "expected": "",
+      "preedit": "rqen",
+      "first_candidate": "20 October 2026",
+      "matched_comment": null,
+      "commit": null,
+      "passed": true
+    },
+    {
+      "schema": "double_pinyin_flypy",
+      "keys": "U62fc",
+      "tone": false,
+      "emoji": false,
+      "expected": "拼",
+      "preedit": "U62fc",
+      "first_candidate": "拼",
+      "matched_comment": "U62fc",
+      "commit": null,
+      "passed": true
+    },
+    {
+      "schema": "double_pinyin_flypy",
+      "keys": "uiui`b",
+      "tone": false,
+      "emoji": false,
+      "expected": "事实",
+      "preedit": "uiui`b",
+      "first_candidate": "事实",
+      "matched_comment": "",
+      "commit": null,
+      "passed": true
+    },
+    {
+      "schema": "double_pinyin_flypy",
+      "keys": "nihc{bracketleft}",
+      "tone": false,
+      "emoji": false,
+      "expected": "你",
+      "preedit": "",
+      "first_candidate": null,
+      "matched_comment": null,
+      "commit": "你",
+      "passed": true
+    },
+    {
+      "schema": "double_pinyin_flypy",
+      "keys": "nihc{bracketright}",
+      "tone": false,
+      "emoji": false,
+      "expected": "好",
+      "preedit": "",
+      "first_candidate": null,
+      "matched_comment": null,
+      "commit": "好",
+      "passed": true
+    },
+    {
+      "schema": "double_pinyin_flypy",
+      "keys": "uijpuu",
+      "tone": false,
+      "emoji": false,
+      "expected": "世界书",
+      "preedit": "uijpuu",
+      "first_candidate": "世界树",
+      "matched_comment": "",
+      "commit": null,
+      "passed": true
+    },
+    {
+      "schema": "double_pinyin_flypy",
+      "keys": "tovu",
+      "tone": false,
+      "emoji": false,
+      "expected": "拓竹",
+      "preedit": "tovu",
+      "first_candidate": "拖住",
+      "matched_comment": "",
+      "commit": null,
+      "passed": true
+    },
+    {
+      "schema": "double_pinyin_flypy",
+      "keys": "yrvj",
+      "tone": false,
+      "emoji": false,
+      "expected": "源站",
+      "preedit": "yrvj",
+      "first_candidate": "源站",
+      "matched_comment": "",
+      "commit": null,
+      "passed": true
+    },
+    {
+      "schema": "double_pinyin_flypy",
+      "keys": "ni;rx",
+      "tone": false,
+      "emoji": false,
+      "expected": "你",
+      "preedit": "ni;rx",
+      "first_candidate": "你",
+      "matched_comment": "(rx)",
+      "commit": null,
+      "passed": true
+    },
+    {
+      "schema": "double_pinyin_flypy",
+      "keys": "Uumumu",
+      "tone": false,
+      "emoji": false,
+      "expected": "林",
+      "preedit": "xiàng xiāng",
+      "first_candidate": "相",
+      "matched_comment": "lín",
+      "commit": null,
+      "passed": true
+    },
+    {
+      "schema": "double_pinyin_flypy",
+      "keys": "=1+2*3",
+      "tone": false,
+      "emoji": false,
+      "expected": "7",
+      "preedit": "=1+2*3〔计算器〕",
+      "first_candidate": "7",
+      "matched_comment": "",
+      "commit": null,
+      "passed": true
+    },
+    {
+      "schema": "double_pinyin_flypy",
+      "keys": "nihc",
+      "tone": true,
+      "emoji": false,
+      "expected": "你好",
+      "preedit": "nǐ hǎo",
+      "first_candidate": "你好",
+      "matched_comment": "",
+      "commit": null,
+      "passed": true
+    },
+    {
+      "schema": "double_pinyin_flypy",
+      "keys": "vsgo",
+      "tone": true,
+      "emoji": false,
+      "expected": "中国",
+      "preedit": "zhōng guó",
+      "first_candidate": "中国",
+      "matched_comment": "",
+      "commit": null,
+      "passed": true
+    },
+    {
+      "schema": "double_pinyin_flypy",
+      "keys": "woxihrvsgo",
+      "tone": true,
+      "emoji": false,
+      "expected": "我喜欢中国",
+      "preedit": "wǒ xǐ huan zhōng guó",
+      "first_candidate": "我喜欢中国",
+      "matched_comment": "🍡",
+      "commit": null,
+      "passed": true
+    },
+    {
+      "schema": "double_pinyin_flypy",
+      "keys": "pisa",
+      "tone": true,
+      "emoji": false,
+      "expected": "披萨",
+      "preedit": "pī sà",
+      "first_candidate": "披萨",
+      "matched_comment": "比(bǐ)萨",
+      "commit": null,
+      "passed": true
+    },
+    {
+      "schema": "double_pinyin_flypy",
+      "keys": "uftu",
+      "tone": true,
+      "emoji": false,
+      "expected": "神荼",
+      "preedit": "shén tú",
+      "first_candidate": "神图",
+      "matched_comment": "神荼(shū)",
+      "commit": null,
+      "passed": true
+    },
+    {
+      "schema": "double_pinyin_flypy",
+      "keys": "yulw",
+      "tone": true,
+      "emoji": false,
+      "expected": "郁垒",
+      "preedit": "yú lèi",
+      "first_candidate": "鱼类",
+      "matched_comment": "郁垒(lǜ)",
+      "commit": null,
+      "passed": true
+    },
+    {
+      "schema": "double_pinyin_flypy",
+      "keys": "uftuyulw",
+      "tone": true,
+      "emoji": false,
+      "expected": "神荼郁垒",
+      "preedit": "shén tú yù lěi",
+      "first_candidate": "神荼郁垒",
+      "matched_comment": "神荼(shū)郁垒(lǜ)",
+      "commit": null,
+      "passed": true
+    },
+    {
+      "schema": "double_pinyin_flypy",
+      "keys": "yulwuftu",
+      "tone": true,
+      "emoji": false,
+      "expected": "郁垒神荼",
+      "preedit": "yù lěi shén tú",
+      "first_candidate": "郁垒神荼",
+      "matched_comment": "郁垒(lǜ)神荼(shū)",
+      "commit": null,
+      "passed": true
+    },
+    {
+      "schema": "double_pinyin_flypy",
+      "keys": "vujn",
+      "tone": true,
+      "emoji": false,
+      "expected": "主角",
+      "preedit": "zhǔ jiào",
+      "first_candidate": "主教",
+      "matched_comment": "zhǔ jué",
+      "commit": null,
+      "passed": true
+    },
+    {
+      "schema": "double_pinyin_flypy",
+      "keys": "jnse",
+      "tone": true,
+      "emoji": false,
+      "expected": "角色",
+      "preedit": "jiào sè",
+      "first_candidate": "校色",
+      "matched_comment": "jué sè",
+      "commit": null,
+      "passed": true
+    },
+    {
+      "schema": "double_pinyin_flypy",
+      "keys": "rqzh",
+      "tone": true,
+      "emoji": false,
+      "expected": "",
+      "preedit": "rqzh",
+      "first_candidate": "二〇二六年十月二十日",
+      "matched_comment": null,
+      "commit": null,
+      "passed": true
+    },
+    {
+      "schema": "double_pinyin_flypy",
+      "keys": "rqen",
+      "tone": true,
+      "emoji": false,
+      "expected": "",
+      "preedit": "rqen",
+      "first_candidate": "20 October 2026",
+      "matched_comment": null,
+      "commit": null,
+      "passed": true
+    },
+    {
+      "schema": "double_pinyin_flypy",
+      "keys": "U62fc",
+      "tone": true,
+      "emoji": false,
+      "expected": "拼",
+      "preedit": "U62fc",
+      "first_candidate": "拼",
+      "matched_comment": "U62fc",
+      "commit": null,
+      "passed": true
+    },
+    {
+      "schema": "double_pinyin_flypy",
+      "keys": "uiui`b",
+      "tone": true,
+      "emoji": false,
+      "expected": "事实",
+      "preedit": "shì shí`b",
+      "first_candidate": "事实",
+      "matched_comment": "",
+      "commit": null,
+      "passed": true
+    },
+    {
+      "schema": "double_pinyin_flypy",
+      "keys": "nihc{bracketleft}",
+      "tone": true,
+      "emoji": false,
+      "expected": "你",
+      "preedit": "",
+      "first_candidate": null,
+      "matched_comment": null,
+      "commit": "你",
+      "passed": true
+    },
+    {
+      "schema": "double_pinyin_flypy",
+      "keys": "nihc{bracketright}",
+      "tone": true,
+      "emoji": false,
+      "expected": "好",
+      "preedit": "",
+      "first_candidate": null,
+      "matched_comment": null,
+      "commit": "好",
+      "passed": true
+    },
+    {
+      "schema": "double_pinyin_flypy",
+      "keys": "uijpuu",
+      "tone": true,
+      "emoji": false,
+      "expected": "世界书",
+      "preedit": "shì jiè shù",
+      "first_candidate": "世界树",
+      "matched_comment": "",
+      "commit": null,
+      "passed": true
+    },
+    {
+      "schema": "double_pinyin_flypy",
+      "keys": "tovu",
+      "tone": true,
+      "emoji": false,
+      "expected": "拓竹",
+      "preedit": "tuō zhù",
+      "first_candidate": "拖住",
+      "matched_comment": "",
+      "commit": null,
+      "passed": true
+    },
+    {
+      "schema": "double_pinyin_flypy",
+      "keys": "yrvj",
+      "tone": true,
+      "emoji": false,
+      "expected": "源站",
+      "preedit": "yuan zhan",
+      "first_candidate": "源站",
+      "matched_comment": "",
+      "commit": null,
+      "passed": true
+    },
+    {
+      "schema": "double_pinyin_flypy",
+      "keys": "ni;rx",
+      "tone": true,
+      "emoji": false,
+      "expected": "你",
+      "preedit": "nǐ;rx",
+      "first_candidate": "你",
+      "matched_comment": "(rx)",
+      "commit": null,
+      "passed": true
+    },
+    {
+      "schema": "double_pinyin_flypy",
+      "keys": "Uumumu",
+      "tone": true,
+      "emoji": false,
+      "expected": "林",
+      "preedit": "xiàng xiāng",
+      "first_candidate": "相",
+      "matched_comment": "lín",
+      "commit": null,
+      "passed": true
+    },
+    {
+      "schema": "double_pinyin_flypy",
+      "keys": "=1+2*3",
+      "tone": true,
+      "emoji": false,
+      "expected": "7",
+      "preedit": "=1+2*3〔计算器〕",
+      "first_candidate": "7",
+      "matched_comment": "",
+      "commit": null,
+      "passed": true
+    },
+    {
+      "schema": "terra_pinyin_all",
+      "keys": "nihao",
+      "tone": false,
+      "emoji": false,
+      "expected": "你好",
+      "preedit": "nihao",
+      "first_candidate": "你好",
+      "matched_comment": "",
+      "commit": null,
+      "passed": true
+    },
+    {
+      "schema": "terra_pinyin_all",
+      "keys": "pisa",
+      "tone": false,
+      "emoji": false,
+      "expected": "披萨",
+      "preedit": "pisa",
+      "first_candidate": "披萨",
+      "matched_comment": "比(bǐ)萨",
+      "commit": null,
+      "passed": true
+    },
+    {
+      "schema": "terra_pinyin_all",
+      "keys": "shentu",
+      "tone": false,
+      "emoji": false,
+      "expected": "神荼",
+      "preedit": "shentu",
+      "first_candidate": "神图",
+      "matched_comment": "神荼(shū)",
+      "commit": null,
+      "passed": true
+    },
+    {
+      "schema": "terra_pinyin_all",
+      "keys": "shentuyulei",
+      "tone": false,
+      "emoji": false,
+      "expected": "神荼郁垒",
+      "preedit": "shentuyulei",
+      "first_candidate": "神荼郁垒",
+      "matched_comment": "神荼(shū)郁垒(lǜ)",
+      "commit": null,
+      "passed": true
+    },
+    {
+      "schema": "terra_pinyin_all",
+      "keys": "U62fc",
+      "tone": false,
+      "emoji": false,
+      "expected": "拼",
+      "preedit": "U62fc",
+      "first_candidate": "拼",
+      "matched_comment": "U62fc",
+      "commit": null,
+      "passed": true
+    },
+    {
+      "schema": "terra_pinyin_all",
+      "keys": "umumu",
+      "tone": false,
+      "emoji": false,
+      "expected": "林",
+      "preedit": "xiàng xiāng",
+      "first_candidate": "相",
+      "matched_comment": "lín",
+      "commit": null,
+      "passed": true
+    },
+    {
+      "schema": "terra_pinyin_all",
+      "keys": "nihao",
+      "tone": true,
+      "emoji": false,
+      "expected": "你好",
+      "preedit": "nǐ hǎo",
+      "first_candidate": "你好",
+      "matched_comment": "",
+      "commit": null,
+      "passed": true
+    },
+    {
+      "schema": "terra_pinyin_all",
+      "keys": "pisa",
+      "tone": true,
+      "emoji": false,
+      "expected": "披萨",
+      "preedit": "pī sà",
+      "first_candidate": "披萨",
+      "matched_comment": "比(bǐ)萨",
+      "commit": null,
+      "passed": true
+    },
+    {
+      "schema": "terra_pinyin_all",
+      "keys": "shentu",
+      "tone": true,
+      "emoji": false,
+      "expected": "神荼",
+      "preedit": "shén tú",
+      "first_candidate": "神图",
+      "matched_comment": "神荼(shū)",
+      "commit": null,
+      "passed": true
+    },
+    {
+      "schema": "terra_pinyin_all",
+      "keys": "shentuyulei",
+      "tone": true,
+      "emoji": false,
+      "expected": "神荼郁垒",
+      "preedit": "shén tú yù lěi",
+      "first_candidate": "神荼郁垒",
+      "matched_comment": "神荼(shū)郁垒(lǜ)",
+      "commit": null,
+      "passed": true
+    },
+    {
+      "schema": "terra_pinyin_all",
+      "keys": "U62fc",
+      "tone": true,
+      "emoji": false,
+      "expected": "拼",
+      "preedit": "U62fc",
+      "first_candidate": "拼",
+      "matched_comment": "U62fc",
+      "commit": null,
+      "passed": true
+    },
+    {
+      "schema": "terra_pinyin_all",
+      "keys": "umumu",
+      "tone": true,
+      "emoji": false,
+      "expected": "林",
+      "preedit": "xiàng xiāng",
+      "first_candidate": "相",
+      "matched_comment": "lín",
+      "commit": null,
+      "passed": true
+    },
+    {
+      "schema": "melt_eng",
+      "keys": "clementine",
+      "tone": false,
+      "emoji": false,
+      "expected": "clementine",
+      "preedit": "clementine",
+      "first_candidate": "clementine",
+      "matched_comment": "",
+      "commit": null,
+      "passed": true
+    },
+    {
+      "schema": "melt_eng",
+      "keys": "confuses",
+      "tone": false,
+      "emoji": false,
+      "expected": "confuses",
+      "preedit": "confuses",
+      "first_candidate": "confuses",
+      "matched_comment": "",
+      "commit": null,
+      "passed": true
+    },
+    {
+      "schema": "melt_eng",
+      "keys": "misnomer",
+      "tone": false,
+      "emoji": false,
+      "expected": "misnomer",
+      "preedit": "misnomer",
+      "first_candidate": "misnomer",
+      "matched_comment": "",
+      "commit": null,
+      "passed": true
+    },
+    {
+      "schema": "melt_eng",
+      "keys": "spud",
+      "tone": false,
+      "emoji": false,
+      "expected": "spud",
+      "preedit": "spud",
+      "first_candidate": "spud",
+      "matched_comment": "",
+      "commit": null,
+      "passed": true
+    },
+    {
+      "schema": "melt_eng",
+      "keys": "squiggle",
+      "tone": false,
+      "emoji": false,
+      "expected": "squiggle",
+      "preedit": "squiggle",
+      "first_candidate": "squiggle",
+      "matched_comment": "",
+      "commit": null,
+      "passed": true
+    },
+    {
+      "schema": "double_pinyin_flypy",
+      "keys": "xqxi",
+      "tone": false,
+      "emoji": true,
+      "expected": "休息",
+      "preedit": "xqxi",
+      "first_candidate": "休息",
+      "matched_comment": "",
+      "commit": null,
+      "passed": true
+    },
+    {
+      "schema": "double_pinyin_flypy",
+      "keys": "hsgr",
+      "tone": false,
+      "emoji": true,
+      "expected": "🦩",
+      "preedit": "hsgr",
+      "first_candidate": "宏观",
+      "matched_comment": "〔红鹳〕",
+      "commit": null,
+      "passed": true
+    },
+    {
+      "schema": "double_pinyin_flypy",
+      "keys": "wfqr",
+      "tone": false,
+      "emoji": true,
+      "expected": "♨️",
+      "preedit": "wfqr",
+      "first_candidate": "温泉",
+      "matched_comment": "〔温泉〕",
+      "commit": null,
+      "passed": true
+    },
+    {
+      "schema": "double_pinyin_flypy",
+      "keys": "xqxi",
+      "tone": true,
+      "emoji": true,
+      "expected": "休息",
+      "preedit": "xiū xi",
+      "first_candidate": "休息",
+      "matched_comment": "",
+      "commit": null,
+      "passed": true
+    },
+    {
+      "schema": "double_pinyin_flypy",
+      "keys": "hsgr",
+      "tone": true,
+      "emoji": true,
+      "expected": "🦩",
+      "preedit": "hóng guān",
+      "first_candidate": "宏观",
+      "matched_comment": "〔红鹳〕",
+      "commit": null,
+      "passed": true
+    },
+    {
+      "schema": "double_pinyin_flypy",
+      "keys": "wfqr",
+      "tone": true,
+      "emoji": true,
+      "expected": "♨️",
+      "preedit": "wēn quán",
+      "first_candidate": "温泉",
+      "matched_comment": "〔温泉〕",
+      "commit": null,
+      "passed": true
+    },
+    {
+      "schema": "double_pinyin_flypy",
+      "keys": "uvmo",
+      "tone": false,
+      "emoji": false,
+      "expected": "水磨",
+      "preedit": "uvmo",
+      "first_candidate": "水墨",
+      "matched_comment": "",
+      "commit": null,
+      "passed": true
+    },
+    {
+      "schema": "double_pinyin_flypy",
+      "keys": "tmse",
+      "tone": false,
+      "emoji": false,
+      "expected": "填塞",
+      "preedit": "tmse",
+      "first_candidate": "天色",
+      "matched_comment": "",
+      "commit": null,
+      "passed": true
+    },
+    {
+      "schema": "double_pinyin_flypy",
+      "keys": "yzyi",
+      "tone": false,
+      "emoji": false,
+      "expected": "犹疑",
+      "preedit": "yzyi",
+      "first_candidate": "有一",
+      "matched_comment": "",
+      "commit": null,
+      "passed": true
+    },
+    {
+      "schema": "double_pinyin_flypy",
+      "keys": "zomu",
+      "tone": false,
+      "emoji": false,
+      "expected": "柞木",
+      "preedit": "zomu",
+      "first_candidate": "柞木",
+      "matched_comment": "",
+      "commit": null,
+      "passed": true
+    },
+    {
+      "schema": "double_pinyin_flypy",
+      "keys": "jxpkao",
+      "tone": false,
+      "emoji": false,
+      "expected": "贾平凹",
+      "preedit": "jxpkao",
+      "first_candidate": "贾平凹",
+      "matched_comment": "贾平凹(wā)",
+      "commit": null,
+      "passed": true
+    },
+    {
+      "schema": "double_pinyin_flypy",
+      "keys": "dawjma",
+      "tone": false,
+      "emoji": false,
+      "expected": "大宛马",
+      "preedit": "dawjma",
+      "first_candidate": "大宛马",
+      "matched_comment": "大宛(yuān)马",
+      "commit": null,
+      "passed": true
+    },
+    {
+      "schema": "double_pinyin_flypy",
+      "keys": "uvmo",
+      "tone": true,
+      "emoji": false,
+      "expected": "水磨",
+      "preedit": "shuǐ mò",
+      "first_candidate": "水墨",
+      "matched_comment": "",
+      "commit": null,
+      "passed": true
+    },
+    {
+      "schema": "double_pinyin_flypy",
+      "keys": "tmse",
+      "tone": true,
+      "emoji": false,
+      "expected": "填塞",
+      "preedit": "tiān sè",
+      "first_candidate": "天色",
+      "matched_comment": "",
+      "commit": null,
+      "passed": true
+    },
+    {
+      "schema": "double_pinyin_flypy",
+      "keys": "yzyi",
+      "tone": true,
+      "emoji": false,
+      "expected": "犹疑",
+      "preedit": "yǒu yī",
+      "first_candidate": "有一",
+      "matched_comment": "",
+      "commit": null,
+      "passed": true
+    },
+    {
+      "schema": "double_pinyin_flypy",
+      "keys": "zomu",
+      "tone": true,
+      "emoji": false,
+      "expected": "柞木",
+      "preedit": "zuò mù",
+      "first_candidate": "柞木",
+      "matched_comment": "",
+      "commit": null,
+      "passed": true
+    },
+    {
+      "schema": "double_pinyin_flypy",
+      "keys": "jxpkao",
+      "tone": true,
+      "emoji": false,
+      "expected": "贾平凹",
+      "preedit": "jiǎ píng āo",
+      "first_candidate": "贾平凹",
+      "matched_comment": "贾平凹(wā)",
+      "commit": null,
+      "passed": true
+    },
+    {
+      "schema": "double_pinyin_flypy",
+      "keys": "dawjma",
+      "tone": true,
+      "emoji": false,
+      "expected": "大宛马",
+      "preedit": "dà wǎn mǎ",
+      "first_candidate": "大宛马",
+      "matched_comment": "大宛(yuān)马",
+      "commit": null,
+      "passed": true
+    },
+    {
+      "schema": "terra_pinyin_all",
+      "keys": "shuimo",
+      "tone": false,
+      "emoji": false,
+      "expected": "水磨",
+      "preedit": "shuimo",
+      "first_candidate": "水墨",
+      "matched_comment": "",
+      "commit": null,
+      "passed": true
+    },
+    {
+      "schema": "terra_pinyin_all",
+      "keys": "tianse",
+      "tone": false,
+      "emoji": false,
+      "expected": "填塞",
+      "preedit": "tianse",
+      "first_candidate": "天色",
+      "matched_comment": "",
+      "commit": null,
+      "passed": true
+    },
+    {
+      "schema": "terra_pinyin_all",
+      "keys": "youyi",
+      "tone": false,
+      "emoji": false,
+      "expected": "犹疑",
+      "preedit": "youyi",
+      "first_candidate": "有一",
+      "matched_comment": "",
+      "commit": null,
+      "passed": true
+    },
+    {
+      "schema": "terra_pinyin_all",
+      "keys": "zuomu",
+      "tone": false,
+      "emoji": false,
+      "expected": "柞木",
+      "preedit": "zuomu",
+      "first_candidate": "柞木",
+      "matched_comment": "",
+      "commit": null,
+      "passed": true
+    },
+    {
+      "schema": "terra_pinyin_all",
+      "keys": "jiapingao",
+      "tone": false,
+      "emoji": false,
+      "expected": "贾平凹",
+      "preedit": "jiapingao",
+      "first_candidate": "贾平凹",
+      "matched_comment": "贾平凹(wā)",
+      "commit": null,
+      "passed": true
+    },
+    {
+      "schema": "terra_pinyin_all",
+      "keys": "dawanma",
+      "tone": false,
+      "emoji": false,
+      "expected": "大宛马",
+      "preedit": "dawanma",
+      "first_candidate": "大宛马",
+      "matched_comment": "大宛(yuān)马",
+      "commit": null,
+      "passed": true
+    },
+    {
+      "schema": "terra_pinyin_all",
+      "keys": "shuimo",
+      "tone": true,
+      "emoji": false,
+      "expected": "水磨",
+      "preedit": "shuǐ mò",
+      "first_candidate": "水墨",
+      "matched_comment": "",
+      "commit": null,
+      "passed": true
+    },
+    {
+      "schema": "terra_pinyin_all",
+      "keys": "tianse",
+      "tone": true,
+      "emoji": false,
+      "expected": "填塞",
+      "preedit": "tiān sè",
+      "first_candidate": "天色",
+      "matched_comment": "",
+      "commit": null,
+      "passed": true
+    },
+    {
+      "schema": "terra_pinyin_all",
+      "keys": "youyi",
+      "tone": true,
+      "emoji": false,
+      "expected": "犹疑",
+      "preedit": "yǒu yī",
+      "first_candidate": "有一",
+      "matched_comment": "",
+      "commit": null,
+      "passed": true
+    },
+    {
+      "schema": "terra_pinyin_all",
+      "keys": "zuomu",
+      "tone": true,
+      "emoji": false,
+      "expected": "柞木",
+      "preedit": "zuò mù",
+      "first_candidate": "柞木",
+      "matched_comment": "",
+      "commit": null,
+      "passed": true
+    },
+    {
+      "schema": "terra_pinyin_all",
+      "keys": "jiapingao",
+      "tone": true,
+      "emoji": false,
+      "expected": "贾平凹",
+      "preedit": "jiǎ píng āo",
+      "first_candidate": "贾平凹",
+      "matched_comment": "贾平凹(wā)",
+      "commit": null,
+      "passed": true
+    },
+    {
+      "schema": "terra_pinyin_all",
+      "keys": "dawanma",
+      "tone": true,
+      "emoji": false,
+      "expected": "大宛马",
+      "preedit": "dà wǎn mǎ",
+      "first_candidate": "大宛马",
+      "matched_comment": "大宛(yuān)马",
+      "commit": null,
+      "passed": true
+    },
+    {
+      "schema": "melt_eng",
+      "keys": "anglophone",
+      "tone": false,
+      "emoji": false,
+      "expected": "anglophone",
+      "preedit": "anglophone",
+      "first_candidate": "anglophone",
+      "matched_comment": "",
+      "commit": null,
+      "passed": true
+    },
+    {
+      "schema": "melt_eng",
+      "keys": "calico",
+      "tone": false,
+      "emoji": false,
+      "expected": "calico",
+      "preedit": "calico",
+      "first_candidate": "calico",
+      "matched_comment": "",
+      "commit": null,
+      "passed": true
+    },
+    {
+      "schema": "melt_eng",
+      "keys": "demarcation",
+      "tone": false,
+      "emoji": false,
+      "expected": "demarcation",
+      "preedit": "demarcation",
+      "first_candidate": "demarcation",
+      "matched_comment": "",
+      "commit": null,
+      "passed": true
+    },
+    {
+      "schema": "melt_eng",
+      "keys": "phoneme",
+      "tone": false,
+      "emoji": false,
+      "expected": "phoneme",
+      "preedit": "phoneme",
+      "first_candidate": "phoneme",
+      "matched_comment": "",
+      "commit": null,
+      "passed": true
+    },
+    {
+      "schema": "melt_eng",
+      "keys": "trombone",
+      "tone": false,
+      "emoji": false,
+      "expected": "trombone",
+      "preedit": "trombone",
+      "first_candidate": "trombone",
+      "matched_comment": "",
+      "commit": null,
+      "passed": true
+    },
+    {
+      "schema": "melt_eng",
+      "keys": "GTAVI",
+      "tone": false,
+      "emoji": false,
+      "expected": "GTAVI",
+      "preedit": "GTAVI",
+      "first_candidate": "GTAVI",
+      "matched_comment": "",
+      "commit": null,
+      "passed": true
+    },
+    {
+      "schema": "melt_eng",
+      "keys": "ApplePencilPro",
+      "tone": false,
+      "emoji": false,
+      "expected": "Apple Pencil Pro",
+      "preedit": "ApplePencilPro",
+      "first_candidate": "Apple Pencil Pro",
+      "matched_comment": "",
+      "commit": null,
+      "passed": true
+    },
+    {
+      "schema": "double_pinyin_flypy",
+      "keys": "tulk",
+      "tone": false,
+      "emoji": false,
+      "expected": "图灵",
+      "preedit": "tulk",
+      "first_candidate": "图灵",
+      "matched_comment": "",
+      "commit": null,
+      "passed": true
+    },
+    {
+      "schema": "terra_pinyin_all",
+      "keys": "tuling",
+      "tone": false,
+      "emoji": false,
+      "expected": "图灵",
+      "preedit": "tuling",
+      "first_candidate": "图灵",
+      "matched_comment": "",
+      "commit": null,
+      "passed": true
+    },
+    {
+      "schema": "double_pinyin_flypy",
+      "keys": "vzjply",
+      "tone": true,
+      "emoji": false,
+      "expected": "周杰伦",
+      "preedit": "zhōu jié lún",
+      "first_candidate": "周杰伦",
+      "matched_comment": "",
+      "commit": null,
+      "passed": true
+    },
+    {
+      "schema": "terra_pinyin_all",
+      "keys": "zhoujielun",
+      "tone": true,
+      "emoji": false,
+      "expected": "周杰伦",
+      "preedit": "zhōu jié lún",
+      "first_candidate": "周杰伦",
+      "matched_comment": "",
+      "commit": null,
+      "passed": true
+    },
+    {
+      "schema": "double_pinyin_flypy",
+      "keys": "lqdehx",
+      "tone": false,
+      "emoji": false,
+      "expected": "刘德华",
+      "preedit": "lqdehx",
+      "first_candidate": "刘德华",
+      "matched_comment": "",
+      "commit": null,
+      "passed": true
+    },
+    {
+      "schema": "terra_pinyin_all",
+      "keys": "liudehua",
+      "tone": false,
+      "emoji": false,
+      "expected": "刘德华",
+      "preedit": "liudehua",
+      "first_candidate": "刘德华",
+      "matched_comment": "",
+      "commit": null,
+      "passed": true
+    },
+    {
+      "schema": "double_pinyin_flypy",
+      "keys": "whhs",
+      "tone": false,
+      "emoji": false,
+      "expected": "王红",
+      "preedit": "whhs",
+      "first_candidate": "网红",
+      "matched_comment": "",
+      "commit": null,
+      "passed": true
+    },
+    {
+      "schema": "terra_pinyin_all",
+      "keys": "wanghong",
+      "tone": false,
+      "emoji": false,
+      "expected": "王红",
+      "preedit": "wanghong",
+      "first_candidate": "网红",
+      "matched_comment": "",
+      "commit": null,
+      "passed": true
+    },
+    {
+      "schema": "double_pinyin_flypy",
+      "keys": "xuzilk",
+      "tone": false,
+      "emoji": false,
+      "expected": "徐子陵",
+      "preedit": "xuzilk",
+      "first_candidate": "徐子陵",
+      "matched_comment": "",
+      "commit": null,
+      "passed": true
+    },
+    {
+      "schema": "terra_pinyin_all",
+      "keys": "xuziling",
+      "tone": false,
+      "emoji": false,
+      "expected": "徐子陵",
+      "preedit": "xuziling",
+      "first_candidate": "徐子陵",
+      "matched_comment": "",
+      "commit": null,
+      "passed": true
+    },
+    {
+      "schema": "double_pinyin_flypy",
+      "keys": "yicixkhzvc",
+      "tone": false,
+      "emoji": false,
+      "expected": "一次性喉罩",
+      "preedit": "yicixkhzvc",
+      "first_candidate": "一次性喉罩",
+      "matched_comment": "",
+      "commit": null,
+      "passed": true
+    },
+    {
+      "schema": "terra_pinyin_all",
+      "keys": "yicixinghouzhao",
+      "tone": false,
+      "emoji": false,
+      "expected": "一次性喉罩",
+      "preedit": "yicixinghouzhao",
+      "first_candidate": "一次性喉罩",
+      "matched_comment": "",
+      "commit": null,
+      "passed": true
+    },
+    {
+      "schema": "double_pinyin_flypy",
+      "keys": "yiyhhxtj",
+      "tone": true,
+      "emoji": false,
+      "expected": "一氧化碳",
+      "preedit": "yī yǎng huà tàn",
+      "first_candidate": "一氧化碳",
+      "matched_comment": "",
+      "commit": null,
+      "passed": true
+    },
+    {
+      "schema": "terra_pinyin_all",
+      "keys": "yiyanghuatan",
+      "tone": true,
+      "emoji": false,
+      "expected": "一氧化碳",
+      "preedit": "yī yǎng huà tàn",
+      "first_candidate": "一氧化碳",
+      "matched_comment": "",
+      "commit": null,
+      "passed": true
+    },
+    {
+      "schema": "double_pinyin_flypy",
+      "keys": "vshxrfmbgshego",
+      "tone": false,
+      "emoji": false,
+      "expected": "中华人民共和国",
+      "preedit": "vshxrfmbgshego",
+      "first_candidate": "中华人民共和国",
+      "matched_comment": "",
+      "commit": null,
+      "passed": true
+    },
+    {
+      "schema": "terra_pinyin_all",
+      "keys": "zhonghuarenmingongheguo",
+      "tone": false,
+      "emoji": false,
+      "expected": "中华人民共和国",
+      "preedit": "zhonghuarenmingongheguo",
+      "first_candidate": "中华人民共和国",
+      "matched_comment": "",
+      "commit": null,
+      "passed": true
+    }
+  ],
+  "total": 114,
+  "passed": 114,
+  "baseline_commit": "dac2a68a9658f4ca68e92bfa151a2c632230d44c",
+  "upstreams": {
+    "RIME-LMDG": {
+      "head": "1eb383f905650caf0aef8dbdf924ee950c95097a",
+      "commit": "2026-10-19T23:38:25+08:00 fix: 词库调整",
+      "commits_since_previous": 67
+    },
+    "rime-frost": {
+      "head": "65d524b113461dbdee5c85a9a054b91b499d5cdc",
+      "commit": "2026-10-19T12:29:40+08:00 Merge pull request #364 from gaboolic/dict-2026-10-19",
+      "commits_since_previous": 22
+    },
+    "rime-ice": {
+      "head": "da1fbe602e38f26db846fa10120ee64c2b0324c0",
+      "commit": "2026-10-05T21:37:01+08:00 dict: 增改词汇 (#1636)",
+      "commits_since_previous": 0
+    },
+    "oh-my-rime": {
+      "head": "5fca6ae067fd666b5ec4f119c5147efd629cc76d",
+      "commit": "2026-10-19T20:41:48+08:00 feat(dict): 同步万象重组词库",
+      "commits_since_previous": 1
+    },
+    "rime-radical-pinyin": {
+      "head": "87e73d7182916f3db9dbc0b6a4d18a78a775b298",
+      "commit": "2026-06-18T18:28:27+08:00 Do things better, faster, stronger",
+      "commits_since_previous": 0
+    },
+    "rime-wanxiang": {
+      "head": "50b2ea9a8ea689b698cb34e25822ef0c063d2270",
+      "commit": "2026-10-19T23:56:28+08:00 fix: ci",
+      "commits_since_previous": 56
+    }
+  },
+  "deployment": {
+    "exit_code": 0,
+    "source_files_written": 15,
+    "source_files_retired": 1,
+    "started": "2026-10-20T09:50:38.6494086+08:00",
+    "finished": "2026-10-20T09:51:03.6879223+08:00",
+    "backup": "C:\\Users\\ytqi\\AppData\\Roaming\\Rime-backups\\20261020-upstream-update",
+    "protected_files_unchanged": true,
+    "model_unchanged": true
+  },
+  "scope": [
+    {
+      "path": "dicts/dicts_LMDG/cuoyin.dict.yaml",
+      "old_sha256": "732e859e0cf9df6135a4c2216a47f3115ff39abc5bffcd8b1ae261f841b497b5",
+      "new_sha256": "79d5d2cc416c529128153a8c250e21d00210b056e77abe7b03e1e5aaba8b297b",
+      "action": "write"
+    },
+    {
+      "path": "dicts/dicts_LMDG/diming.dict.yaml",
+      "old_sha256": "52cf21452d1123f6abd87587a57a808434d3e678cfc132f59850542aeab506e7",
+      "new_sha256": "e8b998f24989b5c02d6429782b867de4447e402f663eff1cbbd64caf0ddb0875",
+      "action": "write"
+    },
+    {
+      "path": "dicts/dicts_LMDG/duoyin.dict.yaml",
+      "old_sha256": "1ec324bc5b08d015dba882ec269c81948ebe62a981f625c5f8c7c2e0cae96142",
+      "new_sha256": "9d81006485e2008e989a72a9401fbf5a6e18a660005ce2ceae58df9d00fc6bd5",
+      "action": "write"
+    },
+    {
+      "path": "dicts/dicts_LMDG/huaxue.dict.yaml",
+      "old_sha256": "46cf468f7ba37c1b5725357ecef36f5a60122e03eccb5a2b19d8fcba91c4ca18",
+      "new_sha256": "1b5f51be1ef09e75b1d01b9d3017afb0b1d3b1c6785d83c08dac33ecf03e8b0b",
+      "action": "write"
+    },
+    {
+      "path": "dicts/dicts_LMDG/jichu.dict.yaml",
+      "old_sha256": "6a1f77d5e9e579416b05d1f90498b88d9aa8f35b9cad8c3879966cd5201919b3",
+      "new_sha256": "ef73e1745f9866f69f978d31e8402ee10bdb6c5a077d198b43dea72b8743fca4",
+      "action": "write"
+    },
+    {
+      "path": "dicts/dicts_LMDG/mixed.dict.yaml",
+      "old_sha256": "ff8d2fdb89db7fb121071694af820ecbfaf9b4642dad56c877621d97796f0c88",
+      "new_sha256": "c681215185c381203374cdc40be3d8f3854af9793cce6698a13a0d87a008f45b",
+      "action": "write"
+    },
+    {
+      "path": "dicts/dicts_LMDG/shici.dict.yaml",
+      "old_sha256": "21009fc5163c17aded21e61cb763131419a685746edfe98d2c7fe6115aa15178",
+      "new_sha256": "cc7e24275ae20ad628228356694bf3c7a60f416b23610b12912fe5993b84d735",
+      "action": "write"
+    },
+    {
+      "path": "dicts/dicts_LMDG/wuzhong.dict.yaml",
+      "old_sha256": "865ea6995190d8ba3865101a372744c4a1fd01ba13748442e0b004052e2c8919",
+      "new_sha256": "89181ed4bb3c6039ad6b837eb854aedf3105e2d54c94b478dfbb92af27e594b0",
+      "action": "write"
+    },
+    {
+      "path": "dicts/dicts_LMDG/yaopin.dict.yaml",
+      "old_sha256": "9a042fe7a163074dd33767f5e5fead3bcd1e44f326ae372116289ebfdd5a0aa4",
+      "new_sha256": "ad20289adf548b4b649a6e104efb435f811c27856dde59b942da1c242b0531ea",
+      "action": "write"
+    },
+    {
+      "path": "dicts/dicts_LMDG/yixue.dict.yaml",
+      "old_sha256": "2f232bb88ac1e2a807dd9977dd90e940e0cd0b84cf807aebc082acf75e242556",
+      "new_sha256": "58794a2b570b2968f5f2227d2a59a309c97af25b8c8fd2acf4bf79ef1cff2c5f",
+      "action": "write"
+    },
+    {
+      "path": "dicts/dicts_LMDG/zi.dict.yaml",
+      "old_sha256": "d2ef056d63730b1476166862f43f0a6ce15ffa457c726a3a478882f23325447e",
+      "new_sha256": "ea414e4fdaa69c2de48849667e46b93a25f30e63ea104df4f05300e548f58ebd",
+      "action": "write"
+    },
+    {
+      "path": "dicts/dicts_LMDG/mingren.dict.yaml",
+      "old_sha256": null,
+      "new_sha256": "987fac9932806b42951cedf93a7f582bf6eb85c0c75b97b261e15d763b484eb6",
+      "action": "write"
+    },
+    {
+      "path": "dicts/dicts_LMDG/yiren.dict.yaml",
+      "old_sha256": null,
+      "new_sha256": "3a999b67a01e90dd7cf64040658a020ea6a1eae12937a2b9e56c55f95b0eb76e",
+      "action": "write"
+    },
+    {
+      "path": "rime_mint.dict.yaml",
+      "old_sha256": "b65e54008e0128e607ef71f8ebe1c182c806af1c9417da8779531b60a12b1c96",
+      "new_sha256": "3027a364db0b529f101341f91df84ae1bb67af6986c16e6237ad760e6240d671",
+      "action": "write"
+    },
+    {
+      "path": "terra_pinyin_all.dict.yaml",
+      "old_sha256": "6435160959af8584b035d9cc7d6927857a4b608f0e47a8840f8a7c2ae86b02c9",
+      "new_sha256": "1b6cc1142f9ab9ef59fe08ba8e5fd1f3f257382891c63c92b95b903aa864b381",
+      "action": "write"
+    },
+    {
+      "path": "dicts/dicts_LMDG/lianxiang.dict.yaml",
+      "old_sha256": "3b18df3d96ca568a09c0442f75975e1b00fab32c7046ec72fc7059f14ab873a0",
+      "new_sha256": null,
+      "action": "retire"
+    }
+  ],
+  "imports_before": 38,
+  "imports_after": 39,
+  "protected_files_unchanged": true,
+  "model": {
+    "bytes": 398309420,
+    "sha256": "c330bca73a4102b097fd6b239e6d10097a41995864f13004dec06e8cec98f2cc",
+    "unchanged": true
+  },
+  "baseline_checks": {
+    "total": 98,
+    "passed": 98
+  },
+  "isolated_checks": {
+    "total": 114,
+    "passed": 114
+  },
+  "isolated_log": {
+    "warnings": [
+      "W20261020 09:48:48.501916 32724 config_data.cc:70] nonexistent config file 'C:\\Users\\ytqi\\AppData\\Local\\Temp\\codex-rime-upstreams-20261020\\isolated\\installation.yaml'."
+    ],
+    "errors": [],
+    "encode_failure_count": 0,
+    "duplicate_word_count": 0,
+    "six_schema_deployment_succeeded": true
+  },
+  "deployed_session_log": {
+    "warnings": [
+      "W20261020 09:51:30.653017 28056 config_data.cc:70] nonexistent config file 'C:\\Users\\ytqi\\AppData\\Local\\Temp\\codex-rime-upstreams-20261020\\deployed-test\\user.yaml'."
+    ],
+    "errors": [],
+    "encode_failure_count": 0,
+    "duplicate_word_count": 0,
+    "six_schema_deployment_succeeded": false
+  },
+  "migration": {
+    "new_files": {
+      "mingren": {
+        "entries": 22115,
+        "sha256": "987fac9932806b42951cedf93a7f582bf6eb85c0c75b97b261e15d763b484eb6"
+      },
+      "yiren": {
+        "entries": 14444,
+        "sha256": "3a999b67a01e90dd7cf64040658a020ea6a1eae12937a2b9e56c55f95b0eb76e"
+      }
+    },
+    "retired_coverage": {
+      "renming": {
+        "old_entries": 19192,
+        "same_text_code_covered": 1022,
+        "same_text_covered": 1024,
+        "uncovered_examples": [
+          [
+            "丁一",
+            "dīng yī"
+          ],
+          [
+            "丁一凡",
+            "dīng yī fán"
+          ],
+          [
+            "丁一岚",
+            "dīng yī lán"
+          ],
+          [
+            "丁一晨",
+            "dīng yī chén"
+          ],
+          [
+            "丁丁张",
+            "dīng dīng zhāng"
+          ],
+          [
+            "丁三郎",
+            "dīng sān láng"
+          ],
+          [
+            "丁不三",
+            "dīng bù sān"
+          ],
+          [
+            "丁世均",
+            "dīng shì jūn"
+          ],
+          [
+            "丁予宁",
+            "dīng yǔ níng"
+          ],
+          [
+            "丁云娟",
+            "dīng yún juān"
+          ],
+          [
+            "丁云鹏",
+            "dīng yún péng"
+          ],
+          [
+            "丁亥日",
+            "dīng hài rì"
+          ],
+          [
+            "丁亦鑫",
+            "dīng yì xīn"
+          ],
+          [
+            "丁仕美",
+            "dīng shì měi"
+          ],
+          [
+            "丁伟",
+            "dīng wěi"
+          ],
+          [
+            "丁伟杰",
+            "dīng wěi jié"
+          ],
+          [
+            "丁伯根",
+            "dīng bó gēn"
+          ],
+          [
+            "丁偶姻",
+            "dīng ǒu yīn"
+          ],
+          [
+            "丁元和",
+            "dīng yuán hé"
+          ],
+          [
+            "丁列明",
+            "dīng liè míng"
+          ]
+        ],
+        "highest_weight_uncovered": [
+          [
+            18884,
+            [
+              "徐子陵",
+              "xú zǐ líng"
+            ]
+          ],
+          [
+            16550,
+            [
+              "王红",
+              "wáng hóng"
+            ]
+          ],
+          [
+            15679,
+            [
+              "王洪",
+              "wáng hóng"
+            ]
+          ],
+          [
+            15443,
+            [
+              "叶克",
+              "yè kè"
+            ]
+          ],
+          [
+            14459,
+            [
+              "王宏",
+              "wáng hóng"
+            ]
+          ],
+          [
+            11469,
+            [
+              "程中会",
+              "chéng zhōng huì"
+            ]
+          ],
+          [
+            10031,
+            [
+              "张瑶瑶",
+              "zhāng yáo yáo"
+            ]
+          ],
+          [
+            9639,
+            [
+              "叶子青",
+              "yè zi qīng"
+            ]
+          ],
+          [
+            9360,
+            [
+              "谢婉莹",
+              "xiè wǎn yíng"
+            ]
+          ],
+          [
+            9109,
+            [
+              "华德",
+              "huà dé"
+            ]
+          ],
+          [
+            8993,
+            [
+              "张国忠",
+              "zhāng guó zhōng"
+            ]
+          ],
+          [
+            8546,
+            [
+              "陆方舟",
+              "lù fāng zhōu"
+            ]
+          ],
+          [
+            7092,
+            [
+              "沈娇娇",
+              "shěn jiāo jiāo"
+            ]
+          ],
+          [
+            6552,
+            [
+              "林雨时",
+              "lín yǔ shí"
+            ]
+          ],
+          [
+            6014,
+            [
+              "李华",
+              "lǐ huá"
+            ]
+          ]
+        ],
+        "same_text_covered_all_imports": 3977
+      },
+      "lianxiang": {
+        "old_entries": 161363,
+        "same_text_code_covered": 160529,
+        "same_text_covered": 160565,
+        "uncovered_examples": [
+          [
+            "一个老人儿",
+            "yí gè lǎo rén ér"
+          ],
+          [
+            "三十五味沉香",
+            "sān shí wǔ wèi chén xiāng"
+          ],
+          [
+            "上下牙排列不齐",
+            "shàng xià yá pái liè bù qí"
+          ],
+          [
+            "下丘脑外侧核",
+            "xià qiū nǎo wài cè hé"
+          ],
+          [
+            "不依赖贴壁细胞",
+            "bù yī lài tiē bì xì bāo"
+          ],
+          [
+            "不分剂量散剂",
+            "bù fēn jì liàng sǎn jì"
+          ],
+          [
+            "不喜欢肖战",
+            "bù xǐ huan xiāo zhàn"
+          ],
+          [
+            "不断的丰富",
+            "bú duàn de fēng fù"
+          ],
+          [
+            "不断的付出",
+            "bú duàn de fù chū"
+          ],
+          [
+            "不断的优化",
+            "bú duàn de yōu huà"
+          ],
+          [
+            "不断的修改",
+            "bú duàn de xiū gǎi"
+          ],
+          [
+            "不断的出现",
+            "bú duàn de chū xiàn"
+          ],
+          [
+            "不断的创新",
+            "bú duàn de chuàng xīn"
+          ],
+          [
+            "不断的创造",
+            "bú duàn de chuàng zào"
+          ],
+          [
+            "不断的刷新",
+            "bú duàn de shuā xīn"
+          ],
+          [
+            "不断的刺激",
+            "bú duàn de cì jī"
+          ],
+          [
+            "不断的前进",
+            "bú duàn de qián jìn"
+          ],
+          [
+            "不断的加强",
+            "bú duàn de jiā qiáng"
+          ],
+          [
+            "不断的努力",
+            "bú duàn de nǔ lì"
+          ],
+          [
+            "不断的升级",
+            "bú duàn de shēng jí"
+          ]
+        ],
+        "highest_weight_uncovered": [
+          [
+            1000,
+            [
+              "干的那些事",
+              "gàn de nà xiē shì"
+            ]
+          ],
+          [
+            12,
+            [
+              "热电偶温度计",
+              "rè diàn ǒu wēn dù jì"
+            ]
+          ],
+          [
+            10,
+            [
+              "鼻咽淀粉样变性",
+              "bí yān diàn fěn yàng biàn xìng"
+            ]
+          ],
+          [
+            10,
+            [
+              "鼠疫血清学试验",
+              "shǔ yì xuè qīng xué shì yàn"
+            ]
+          ],
+          [
+            10,
+            [
+              "鼠伤寒沙门氏菌",
+              "shǔ shāng hán shā mén shì jūn"
+            ]
+          ],
+          [
+            10,
+            [
+              "黄热减毒活疫苗",
+              "huáng rè jiǎn dú huó yì miáo"
+            ]
+          ],
+          [
+            10,
+            [
+              "黄帝八十一难经",
+              "huáng dì bā shí yī nán jīng"
+            ]
+          ],
+          [
+            10,
+            [
+              "鲍氏志贺菌痢疾",
+              "bào shì zhì hè jūn lì jí"
+            ]
+          ],
+          [
+            10,
+            [
+              "魔术师的学徒",
+              "mó shù shī de xué tú"
+            ]
+          ],
+          [
+            10,
+            [
+              "魔术师的奇遇",
+              "mó shù shī de qí yù"
+            ]
+          ],
+          [
+            10,
+            [
+              "魔术师和兔子",
+              "mó shù shī hé tù zi"
+            ]
+          ],
+          [
+            10,
+            [
+              "魔术师与兔子",
+              "mó shù shī yǔ tù zi"
+            ]
+          ],
+          [
+            10,
+            [
+              "魔兽争霸系列",
+              "mó shòu zhēng bà xì liè"
+            ]
+          ],
+          [
+            10,
+            [
+              "魔兽世界私服",
+              "mó shòu shì jiè sī fú"
+            ]
+          ],
+          [
+            10,
+            [
+              "魔兽世界的人",
+              "mó shòu shì jiè de rén"
+            ]
+          ]
+        ],
+        "same_text_covered_all_imports": 160874
+      }
+    },
+    "new_union_entries": 2126369
+  }
+}

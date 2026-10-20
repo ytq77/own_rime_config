@@ -15,14 +15,15 @@ import_tables:
   - dicts/dicts_LMDG/mixed
   - dicts/dicts_LMDG/cuoyin                                # LMDG 错音错字候选与提示
   - dicts/corrections_rime_ice                             # rime-ice 补充纠错候选与提示
-  - dicts/dicts_LMDG/lianxiang                             # 五字及以上长词联想（靠后）
 
   - dicts/other_kaomoji          # 颜文字表情（按`VV`呼出)
   
   # 文化类
   - dicts/dicts_LMDG/shici                                 # 诗词/成语/典故类（靠后）
   # 专有名词类（靠后）
-  - dicts/dicts_LMDG/renming                               # 人名词库（专有名词，靠后）
+  - dicts/dicts_LMDG/renming                               # 保留旧普通人名库，上游已停止维护
+  - dicts/dicts_LMDG/mingren                               # 名人姓名（上游现行分类）
+  - dicts/dicts_LMDG/yiren                                 # 艺人姓名（上游现行分类）
   - dicts/dicts_LMDG/diming                                # 地名/行政区划（专有名词，靠后）
   # 专业领域词库（靠后）
   - dicts/dicts_LMDG/huaxue                                # 化学词库

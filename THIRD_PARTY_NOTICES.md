@@ -15,7 +15,7 @@ GPL v3 官方全文：<https://www.gnu.org/licenses/gpl-3.0.html>
 
 ## CC BY 4.0：万象词库与相关资料
 
-`dicts/dicts_LMDG/` 来自 [amzxyz/RIME-LMDG](https://github.com/amzxyz/RIME-LMDG)，万象方案和部分 Lua 逻辑参考 [amzxyz/rime-wanxiang](https://github.com/amzxyz/rime-wanxiang)。这些上游仓库标注为 [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/)（CC BY 4.0）。
+`dicts/dicts_LMDG/` 来自 [amzxyz/rime-wanxiang-data（原 RIME-LMDG）](https://github.com/amzxyz/rime-wanxiang-data)，万象方案和部分 Lua 逻辑参考 [amzxyz/rime-wanxiang](https://github.com/amzxyz/rime-wanxiang)。万象数据仓库的原创词库和拼音数据按 [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/)（CC BY 4.0）分发，具体范围见其 [LICENSE-SCOPE.md](https://github.com/amzxyz/rime-wanxiang-data/blob/1eb383f905650caf0aef8dbdf924ee950c95097a/LICENSE-SCOPE.md)。本轮仅同步词库数据，没有引入该仓库的程序代码；旧版本引入的 Lua 保留原有来源声明。
 
 使用或再分发这些内容时，应保留：
 

@@ -1,6 +1,6 @@
 # Rime dictionary
 # encoding: utf-8
-#https://github.com/amzxyz/RIME-LMDG
+#https://github.com/amzxyz/rime-wanxiang-data
 #兼容词库，对于多字词汇两种读音的场景，手动维护到本表以及一些其他的杂项
 ---
 name: duoyin
@@ -25,13 +25,15 @@ sort: by_weight
 横行	héng háng	554
 转转	zhuǎn zhuǎn	100
 转一转	zhuǎn yì zhuǎn	39
-倒数	dǎo shù	1010
+倒数	dào shù	1010
 省得	xǐng de	100
 不省得	bù xǐng de	100
 长住	zhǎng zhù	330
 行行	háng háng	300
 行子	xíng zǐ	10
+行子	hàng zi	54
 满血	mǎn xiě	386
+校时	xiào shí	76
 血肠	xiě cháng	226
 给付	jǐ fù	277
 水磨	shuǐ mó	100
@@ -41,6 +43,7 @@ sort: by_weight
 一场	yì cháng	17575
 事了	shì liǎo	337
 会得	huì dé	554
+小种	xiǎo zhǒng	34
 越长越	yuè zhǎng yuè	211
 哦哦	ò ò	1080
 吱吱	zī zī	100
@@ -477,6 +480,7 @@ sort: by_weight
 什么时候还	shén me shí hòu huán	1
 下次一定还	xià cì yī dìng huán	1
 还都	huán dū	95
+弹弹	tán tán	163
 还都	hái dōu	2580
 重载	zhòng zài	472
 重载	chóng zài	808

@@ -1,6 +1,6 @@
 # own_rime_config
 
-这是一套面向个人使用的 Rime 配置：以 [oh-my-rime / 薄荷输入法](https://github.com/Mintimate/oh-my-rime) 为配置骨架，以 [RIME-LMDG / 万象](https://github.com/amzxyz/RIME-LMDG) 为中文词库和语法模型底座，并整合 [rime-frost / 白霜拼音](https://github.com/gaboolic/rime-frost) 与 [rime-ice / 雾凇拼音](https://github.com/iDvel/rime-ice) 的词库和功能。
+这是一套面向个人使用的 Rime 配置：以 [oh-my-rime / 薄荷输入法](https://github.com/Mintimate/oh-my-rime) 为配置骨架，以 [万象数据 / 原 RIME-LMDG](https://github.com/amzxyz/rime-wanxiang-data) 为中文词库和语法模型底座，并整合 [rime-frost / 白霜拼音](https://github.com/gaboolic/rime-frost) 与 [rime-ice / 雾凇拼音](https://github.com/iDvel/rime-ice) 的词库和功能。
 
 |上游项目|本项目中的主要用途|
 |-|-|
@@ -11,10 +11,11 @@
 
 ## 上游维护记录
 
+- [2026-10-20：万象词库重组与部署验证](docs/upstream-updates/2026-10-20.md)：更新 11 个词库，新增名人/艺人库，移除已合并的长词库并保留旧普通人名；两份主词库改为 39 项引用，隔离及正式产物复测均 114 项通过。
 - [2026-10-09：LMDG、英文词库与置顶解析兼容更新](docs/upstream-updates/2026-10-09.md)：同步 13 个 LMDG 词库、2 个英文词库，移植雾凇的置顶分隔符修复；隔离验证 102 项及正式部署产物复测 98 项通过，保留皮肤与 Weasel 配置。
 - [2026-09-10：LMDG 读音修正与部署验证](docs/upstream-updates/2026-09-10.md)：选择性同步 12 个已引用的 LMDG 词库；其他上游没有适用更新。正式部署及 83 项输入测试通过，皮肤与 Weasel 文件保持不变。
 - [2026-09-03：上游对比、更新与部署验证](docs/upstream-updates/2026-09-03.md)：更新现有 LMDG、白霜细胞词库、雾凇英文/纠错/Emoji；适配薄荷的注释修复。保留小鹤双拼习惯、语法模型、词库引用顺序和个人配置。
-- 更新按文件来源选择性同步，不把任意一个上游整套覆盖到本项目。模型及实际用户目录中的 `*.userdb`、`sync/` 不属于词库更新内容。
+- 更新按文件来源选择性同步，不把任意一个上游整套覆盖到本项目。每次维护同时检查万象简体模型，有新版时备份、校验并更新后部署验证；实际用户目录中的 `*.userdb`、`sync/` 不覆盖。
 
 ## 整合的功能
 
@@ -85,7 +86,7 @@
 |rime_mint.dict.yaml|主词库配置|小鹤双拼依赖的主词库，整合万象词库|
 |terra_pinyin_all.dict.yaml|地球拼音主词库配置|与小鹤方案共享同一套分层词库|
 |rime_frost_aux.dict.yaml|白霜单字辅码词典|编码格式为 ``拼音`辅码``，配合 `frost_aux` 翻译器使用|
-|wanxiang-lts-zh-hans.gram|万象语法模型|需要自行下载并放入实际使用的 Rime 用户目录，不随本仓库分发|
+|wanxiang-lts-zh-hans.gram|万象简体语法模型|初次安装需下载至实际 Rime 用户目录；后续随上游维护检查更新，不随本仓库分发|
 
 ## Lua 脚本文件
 
@@ -212,7 +213,9 @@ optional resource not loaded: symbols.custom
 
 ### 万象语法模型
 
-方案覆写文件已经配置 `wanxiang-lts-zh-hans`。模型文件 `wanxiang-lts-zh-hans.gram` 由使用者自行下载并放入实际部署的 Rime 用户目录；仓库只保存模型配置，不保存模型文件。放入后重新部署即可加载。
+方案覆写文件已经配置 `wanxiang-lts-zh-hans`。模型文件 `wanxiang-lts-zh-hans.gram` 初次安装时从[万象数据 Releases 的 LTS 模型发布](https://github.com/amzxyz/rime-wanxiang-data/releases/tag/LTS)下载并放入实际部署的 Rime 用户目录；仓库只保存模型配置，不保存模型文件。
+
+自 2026-10-20 起，每次检查更新 Rime 上游时，也检查该发布中的简体模型 `wanxiang-lts-zh-hans.gram`。按资产 SHA-256 判断是否变化，不只看长期不变的 `LTS` 标签或整仓库的 Latest 发布；无需下载繁体 `zh-hant`。有更新时先下载到临时目录并核对发布方 SHA-256，再备份实际用户目录中的旧模型，使用新模型完成隔离验证后替换并重新部署、复测。记录资产更新时间、大小和新旧 SHA-256；内容相同则跳过替换，失败时恢复旧模型。模型仍不加入 Git，皮肤、Weasel 配置、个人 `*.userdb` 和 `sync/` 继续保留。
 
 ### 白霜/墨奇辅助码
 
@@ -261,12 +264,13 @@ dicts/
 ├── dicts_LMDG/                      # 万象词库目录（RIME-LMDG）
 │   ├── cuoyin.dict.yaml            # LMDG 错音错字对照表
 │   ├── zi.dict.yaml                # 单字基础保障
-│   ├── jichu.dict.yaml             # 常用词，主干词库
+│   ├── jichu.dict.yaml             # 主干词库，包含上游合并的长词
 │   ├── duoyin.dict.yaml            # 多音字兼容优化
 │   ├── mixed.dict.yaml              # 中英、数字等混合词条
-│   ├── lianxiang.dict.yaml         # 五字及以上长词联想
 │   ├── shici.dict.yaml             # 诗词/成语/典故类
-│   ├── renming.dict.yaml           # 人名词库（专有名词）
+│   ├── renming.dict.yaml           # 保留旧普通人名库，上游已停止维护
+│   ├── mingren.dict.yaml           # 名人姓名
+│   ├── yiren.dict.yaml             # 艺人姓名
 │   ├── diming.dict.yaml            # 地名/行政区划（专有名词）
 │   ├── huaxue.dict.yaml            # 化学词库
 │   ├── yaopin.dict.yaml            # 药品词库
@@ -290,8 +294,6 @@ dicts/
 │   ├── chess.dict.yaml             # 象棋（专业领域）
 │   ├── chess2.dict.yaml            # 象棋2（专业领域）
 │   ├── music.dict.yaml             # 音乐（文化类）
-│   ├── literature.dict.yaml        # 文学（文化类）
-│   ├── luna.dict.yaml              # 明月拼音扩展词库（当前未导入）
 │   ├── history.dict.yaml           # 历史（文化类）
 │   ├── place.dict.yaml             # 地名（专有名词）
 │   ├── geography.dict.yaml         # 地理（专有名词）
@@ -311,7 +313,7 @@ dicts/
 
 ### 词库更新说明
 
-1. **万象词库更新**：同步 RIME-LMDG 中本项目已经引用的同名文件；`custom_simple.dict.yaml` 和本项目保留的 `dikuang.dict.yaml` 不应被覆盖或删除。
+1. **万象词库更新**：同步 [rime-wanxiang-data（原 RIME-LMDG）](https://github.com/amzxyz/rime-wanxiang-data) 中本项目已经引用的文件。上游已合并 `lianxiang`，当前通过 `jichu` 等分类提供长词；人名采用新版 `mingren`、`yiren`，并保留停止维护的旧 `renming` 以维持普通人名覆盖。`custom_simple.dict.yaml`、`dikuang.dict.yaml` 和保留的 `renming.dict.yaml` 不应被自动覆盖或删除。
 
 2. **自定义词库**：`dicts/custom_simple.dict.yaml` 是用户自定义词库，不会被自动更新覆盖，可以在此文件中添加个人常用词汇。
 
@@ -319,11 +321,10 @@ dicts/
 
 4. **词库分类说明**：
    - **纠错类**：`cuoyin`、`corrections_rime_ice` - 生成错音候选并显示纠错提示
-   - **基础保障类**：`zi`、`jichu` - 单字和常用词，保证基本输入需求
+   - **基础保障类**：`zi`、`jichu` - 单字、常用词和合并后的长词
    - **优化类**：`duoyin` - 多音字兼容，提升输入准确率
-   - **联想类**：`lianxiang` - 长词联想，提升输入效率
    - **文化类**：`shici` - 诗词成语，丰富表达
-   - **专有名词类**：`renming`、`diming` - 人名地名，靠后加载
+   - **专有名词类**：`renming`（保留旧库）、`mingren`、`yiren`、`diming` - 人名地名，靠后加载
    - **专业领域类**：`huaxue`、`yaopin`、`yixue`、`wuzhong`、`dikuang` 等
 
 ### 补充纠错的维护
@@ -355,14 +356,15 @@ import_tables:
   - dicts/dicts_LMDG/mixed                                 # 中英、数字等混合词条
   - dicts/dicts_LMDG/cuoyin                                # LMDG 纠错
   - dicts/corrections_rime_ice                             # rime-ice 补充纠错
-  - dicts/dicts_LMDG/lianxiang                             # 五字及以上长词联想（靠后）
 
   - dicts/other_kaomoji          # 颜文字表情（按`VV`呼出)
   
   # 文化类
   - dicts/dicts_LMDG/shici                                 # 诗词/成语/典故类（靠后）
   # 专有名词类（靠后）
-  - dicts/dicts_LMDG/renming                               # 人名词库（专有名词，靠后）
+  - dicts/dicts_LMDG/renming                               # 保留旧普通人名库，上游已停止维护
+  - dicts/dicts_LMDG/mingren                               # 名人姓名（上游现行分类）
+  - dicts/dicts_LMDG/yiren                                 # 艺人姓名（上游现行分类）
   - dicts/dicts_LMDG/diming                                # 地名/行政区划（专有名词，靠后）
   # 专业领域词库（靠后）
   - dicts/dicts_LMDG/huaxue                                # 化学词库
